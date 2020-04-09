@@ -1,0 +1,11 @@
+C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\bin\Debug\netcoreapp3.1\SumOfTwo.exe
+C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\bin\Debug\netcoreapp3.1\SumOfTwo.deps.json
+C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\bin\Debug\netcoreapp3.1\SumOfTwo.runtimeconfig.json
+C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\bin\Debug\netcoreapp3.1\SumOfTwo.runtimeconfig.dev.json
+C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\bin\Debug\netcoreapp3.1\SumOfTwo.dll
+C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\bin\Debug\netcoreapp3.1\SumOfTwo.pdb
+C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\obj\Debug\netcoreapp3.1\SumOfTwo.csprojAssemblyReference.cache
+C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\obj\Debug\netcoreapp3.1\SumOfTwo.AssemblyInfoInputs.cache
+C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\obj\Debug\netcoreapp3.1\SumOfTwo.AssemblyInfo.cs
+C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\obj\Debug\netcoreapp3.1\SumOfTwo.dll
+C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\obj\Debug\netcoreapp3.1\SumOfTwo.pdb
