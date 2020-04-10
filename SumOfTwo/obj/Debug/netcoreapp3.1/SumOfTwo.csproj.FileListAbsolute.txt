@@ -9,3 +9,6 @@ C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\obj\Debug\netcoreapp3.1\SumOfTwo.
 C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\obj\Debug\netcoreapp3.1\SumOfTwo.AssemblyInfo.cs
 C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\obj\Debug\netcoreapp3.1\SumOfTwo.dll
 C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\obj\Debug\netcoreapp3.1\SumOfTwo.pdb
+C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\bin\Debug\netcoreapp3.1\Khud0.dll
+C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\bin\Debug\netcoreapp3.1\Khud0.pdb
+C:\Files\C# Projects\SumOfTwoSolution\SumOfTwo\obj\Debug\netcoreapp3.1\SumOfTwo.csproj.CopyComplete

@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Khud0">
+      <HintPath>..\..\Khud0\Khud0\bin\Debug\netstandard2.0\Khud0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
