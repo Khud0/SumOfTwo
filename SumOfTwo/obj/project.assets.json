@@ -1,11 +1,35 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Khud0/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Khud0.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Khud0.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Khud0/1.0.3": {
+      "sha512": "piZjw0JsR2VrcFgw2b4q0prk48hHVbwldXgXRk6ckW4NHb0osO//Z6TqMGFQoMZf0LyUWt9K99LCtaEY2R2hHg==",
+      "type": "package",
+      "path": "khud0/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        "khud0.1.0.3.nupkg.sha512",
+        "khud0.nuspec",
+        "lib/netstandard2.0/Khud0.dll"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Khud0 >= 1.0.3"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Ivan\\.nuget\\packages\\": {}
@@ -27,6 +51,7 @@
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Files\\C# Projects\\NuGet Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -43,6 +68,12 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "Khud0": {
+            "target": "Package",
+            "version": "[1.0.3, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

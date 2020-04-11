@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using Khud0.Utility;
+using Khud0.Input;
 
 namespace SumOfTwo
 {
@@ -27,8 +27,8 @@ namespace SumOfTwo
                 printer.PrintOutArray(finder.b);
 
                 // Accept user input, sum to search for in the arrays
-                UserInput input = new UserInput();
-                int desiredSum = input.AcceptInteger("desired sum");
+                InputRequester input = new InputRequester();
+                int desiredSum = input.RequestInteger("desired sum");
 
                 // Fire all methods using user input
                 MethodTester tester = new MethodTester();

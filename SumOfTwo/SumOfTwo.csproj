@@ -6,9 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Khud0">
-      <HintPath>..\..\Khud0\Khud0\bin\Debug\netstandard2.0\Khud0.dll</HintPath>
-    </Reference>
+    <PackageReference Include="Khud0" Version="1.0.3" />
   </ItemGroup>
 
 </Project>

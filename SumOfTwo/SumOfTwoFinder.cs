@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
+using Khud0.Utility;
 
 namespace SumOfTwo
 {
@@ -22,12 +23,9 @@ namespace SumOfTwo
             this.aLength = arrayLength1;
             this.bLength = arrayLength2;
 
-            ArrayCreator arrayCreator = new ArrayCreator(minNumber, maxNumber);
-            a = arrayCreator.CreateAndFillArray(aLength);
-            b = arrayCreator.CreateAndFillArray(bLength);
+            a = ArrayCreator.CreateAndFillArray(aLength, minNumber, maxNumber);
+            b = ArrayCreator.CreateAndFillArray(bLength, minNumber, maxNumber);
         }
-
-        
 
         
 
@@ -77,17 +75,17 @@ namespace SumOfTwo
         /// </summary>
         public bool MissingNumberImproved(int sumToSearchFor)
         {
-            Dictionary<int, bool> missingNumbers = new Dictionary<int, bool>();
+            HashSet<int> missingNumbers = new HashSet<int>();
 
             for (int i=0; i<aLength; i++)
             {
                 int missingNumber = sumToSearchFor - a[i];
-                if (!missingNumbers.ContainsKey(missingNumber)) missingNumbers.Add(missingNumber, true);           
+                if (!missingNumbers.Contains(missingNumber)) missingNumbers.Add(missingNumber);           
             }
             
             for (int i=0; i<bLength; i++)
             {
-                if (missingNumbers.ContainsKey(b[i])) return true;
+                if (missingNumbers.Contains(b[i])) return true;
             }
 
             return false;
